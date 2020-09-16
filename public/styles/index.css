@@ -1,1 +1,45 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&family=Press+Start+2P&family=Russo+One&display=swap");
+body {
+  margin: auto 0;
+  padding: 0;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: yellowgreen;
+}
+
+header nav .navbar-brand {
+  -webkit-box-flex: 4;
+      -ms-flex-positive: 4;
+          flex-grow: 4;
+}
+
+header nav .navbar-brand .title-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header nav .navbar-brand .title-area img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+header nav .navbar-brand .title-area p {
+  font-size: 20px;
+  margin: 0 0 0 3px;
+  font-family: 'Paytone One';
+}
+/*# sourceMappingURL=index.css.map */
