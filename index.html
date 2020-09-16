@@ -13,7 +13,7 @@
     <body>
         <header>
             <!-- Beginning of the Main Bootstrap Navigation -->
-            <nav class="navbar navbar-expand-lg navbar-dark">
+            <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
                 <!-- Site Logo and Title Branding Area Link -->
                 <a class="navbar-brand" href="index.html">
                     <!-- Little Image and Title-->
@@ -38,7 +38,7 @@
                     </div>
                     <!-- Design Services button link -->
                     <div class="visit-services-area">
-                        <a href="www.levestondesign.com" target="new"><button type="button" class="btn btn-outline-light">Design Services</button></a>
+                        <a href="www.levestondesign.com" target="new"><button type="button" class="btn btn-outline-success">Design Services</button></a>
                     </div>
                 </div>
             </nav>
@@ -59,9 +59,12 @@
                 </div>
             </div>
         </header>
+        <!-- END OF THE HEADER -->
 
+        <!-- BEGINNING OF THE BODY -->
+            <!-- SKILLS SECTION -->
         <section class="skills">
-            <div class="skill-introduction">
+            <div class="skills-introduction">
                 <h2>My Skills</h2>
                 <p>
                     My skills ranges from design, front-end development, and SQL backend knowledge. I am also skilled in IT, obtaining my A+ certificate
@@ -72,41 +75,48 @@
             <!-- Skills Technologies Section -->
                 <section class="skills-technologies-section">
                     <!-- Design Cards for Technologies-->
-                    <div class="cards design-knowledge">
-                        <img src="#">   <!-- Adobe Icon and Pencil -->
-                        <p>Creative Design</p>
-                    </div>
-                    <div class="cards sql-knowledge">
-                        <img src="#">   <!-- MySQL database icon -->
-                        <p>Backend Server <span>MySQL</span></p>
-                    </div>
-                    <div class="cards front-end-knowledge">
-                        <img src="#">   <!-- Obvious front-end icons -->
-                        <p>Front-End</p>
-                    </div>
-                    <div class="cards pc-technician-knowledge">
-                        <img src="#">   <!-- Image of a wrench -->
-                        <p>Technician</p>
-                    </div>
-                    <div class="cards cloud-knowledge">
-                        <img src="#">   <!-- Microsoft Azure icon -->
-                        <p>Cloud</p>
+                    <div class="cards-section">
+                        <div class="cards design-knowledge">
+                            <i class="fab fa-adobe"></i>  <!-- Adobe Icon and Pencil -->
+                            <p>Creative Design</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div class="cards sql-knowledge">
+                            <i class="fas fa-database"></i> <!-- MySQL database icon -->
+                            <p>Backend Database <span>MySQL</span></p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div class="cards front-end-knowledge">
+                            <i class="fab fa-html5"></i>  <!-- Obvious front-end icons -->
+                            <p>Front-End</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div class="cards pc-technician-knowledge">
+                            <i class="fas fa-tools"></i>  <!-- Image of a wrench -->
+                            <p>Technician</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div class="cards cloud-knowledge">
+                            <i class="fas fa-cloud"></i>  <!-- Microsoft Azure icon -->
+                            <p>Cloud<br>Microsoft Azure</p>
+                            <a href="#">Learn more</a>
+                        </div>
                     </div>
                     <!-- Bottom Detailed Graphical List of Technologies -->
                     <div class="detailed-list-area">
                         <ul>
-                            <li><img src="#"></li>   <!-- <- MySQL Icon-->
-                            <li><img src="#"></li>   <!-- <- HTML Icon -->
-                            <li><img src="#"></li>   <!-- <- CSS Icon -->
-                            <li><img src="#"></li>   <!-- <- SASS Icon -->
-                            <li><img src="#"></li>   <!-- <- JavaScript Icon -->
-                            <li><img src="#"></li>   <!-- <- JQuery Icon -->
-                            <li><img src="#"></li>   <!-- <- Bootstrap Icon -->
-                            <li><img src="#"></li>   <!-- <- Bulma -->
-                            <li><img src="#"></li>   <!-- <- Adobe Illustrator -->
-                            <li><img src="#"></li>   <!-- <- Adobe Photoshop -->
-                            <li><img src="#"></li>   <!-- <- A+ PC Technician -->
-                            <li><img src="#"></li>   <!-- <- Microsoft Azure -->
+                            <li><img src="images/mysqlIcon.png"></li>   <!-- <- MySQL Icon-->
+                            <li><img src="images/htmlIcon.png"></li>   <!-- <- HTML Icon -->
+                            <li><img src="images/cssIcon.png"></li>   <!-- <- CSS Icon -->
+                            <li><img src="images/sassIcon.png"></li>   <!-- <- SASS Icon -->
+                            <li><img src="images/jsIcon.png"></li>   <!-- <- JavaScript Icon -->
+                            <li><img src="images/jqueryIcon.png" class="whiteBackground"></li>   <!-- <- JQuery Icon -->
+                            <li><img src="images/boostrapIcon.png"></li>   <!-- <- Bootstrap Icon -->
+                            <li><img src="images/bulmaIcon.png"></li>   <!-- <- Bulma -->
+                            <li><img src="images/illustratorIcon.png"></li>   <!-- <- Adobe Illustrator -->
+                            <li><img src="images/photoshopIcon.png"></li>   <!-- <- Adobe Photoshop -->
+                            <li><img src="images/A+Icon.png"></li>   <!-- <- A+ PC Technician -->
+                            <li><img src="images/azureIcon.png"></li>   <!-- <- Microsoft Azure -->
                         </ul>
                     </div>
                 </section>

@@ -10,7 +10,7 @@ header nav {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background: yellowgreen;
+  background: #202020;
 }
 
 header nav .navbar-brand {
@@ -40,6 +40,111 @@ header nav .navbar-brand .title-area img {
 header nav .navbar-brand .title-area p {
   font-size: 20px;
   margin: 0 0 0 3px;
-  font-family: 'Paytone One';
+  font-family: 'Paytone One', sans-serif;
+}
+
+/* THE JUMBOTRON SECTION */
+/* SKILLS SECTION */
+.skills {
+  padding: 10px;
+  background: #202020;
+}
+
+.skills .skills-introduction {
+  margin: auto;
+  padding: 10px;
+  text-align: justify;
+  color: white;
+}
+
+.skills .skills-introduction h2 {
+  text-align: center;
+}
+
+.skills .skills-introduction p {
+  margin: auto;
+  text-align: justify;
+  width: 500px;
+}
+
+.skills .skills-technologies-section .cards-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skills .skills-technologies-section .cards-section .cards {
+  margin: 10px;
+  padding: 5px;
+  background: white;
+  border-radius: 8px;
+  border: 5px solid yellowgreen;
+  text-align: center;
+}
+
+.skills .skills-technologies-section .cards-section .cards i {
+  font-size: 80px;
+  color: green;
+}
+
+.skills .skills-technologies-section .cards-section .cards p {
+  width: 150px;
+  text-align: center;
+}
+
+.skills .skills-technologies-section .cards-section .cards a {
+  color: yellowgreen;
+}
+
+.skills .skills-technologies-section .detailed-list-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skills .skills-technologies-section .detailed-list-area ul {
+  padding: 0;
+  margin: 0;
+}
+
+.skills .skills-technologies-section .detailed-list-area ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.skills .skills-technologies-section .detailed-list-area ul li .whiteBackground {
+  background: white;
+  border-radius: 5px;
+}
+
+.skills .skills-technologies-section .detailed-list-area ul li img {
+  border-radius: 5px;
+  width: 50px;
+}
+
+@media only screen and (max-width: 516px) {
+  .skills-introduction h2 {
+    text-align: center;
+  }
+  .skills-introduction p {
+    display: none;
+  }
+  .detailed-list-area {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=index.css.map */
