@@ -44,6 +44,32 @@ header nav .navbar-brand .title-area p {
 }
 
 /* THE JUMBOTRON SECTION */
+.jumbotron {
+  margin: 0;
+}
+
+.jumbotron .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.jumbotron .container .introduction-area p {
+  width: 400px;
+}
+
+.jumbotron .container .image-area img {
+  width: 25vw;
+}
+
 /* SKILLS SECTION */
 .skills {
   padding: 10px;
@@ -137,11 +163,21 @@ header nav .navbar-brand .title-area p {
 }
 
 @media only screen and (max-width: 516px) {
+  .jumbotron .container .introduction-area p {
+    width: auto;
+  }
+  .jumbotron .container .image-area img {
+    margin-top: 10px;
+    width: 300px;
+  }
   .skills-introduction h2 {
     text-align: center;
   }
   .skills-introduction p {
     display: none;
+  }
+  .skills-technologies-section .cards-section .cards {
+    width: auto;
   }
   .detailed-list-area {
     text-align: center;
