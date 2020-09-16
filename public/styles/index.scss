@@ -1,0 +1,37 @@
+@import './fonts.scss';
+
+body {
+    margin: auto 0;
+    padding: 0;
+}
+// The Main header
+header {
+    // Main navigation in header
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background: yellowgreen;
+        // Navbar Brand Area
+        .navbar-brand {
+            flex-grow: 4;
+            // Title Area
+            .title-area {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                // Title Image
+                img {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 10px;
+                }
+                // Title
+                p {
+                    font-size: 20px;
+                    margin: 0 0 0 3px;
+                    font-family: 'Paytone One';
+                }
+            }
+        }
+    }
+}
