@@ -57,6 +57,13 @@ header {
             p {
                 width: 400px;
             }
+            // The Javascript Notification area.
+            .notification-area {
+                font-size: 20px;
+                margin-top: 20px;
+                color: yellowgreen;
+                font-family: 'Russo One';
+            }
         }
         .image-area {
             img {
