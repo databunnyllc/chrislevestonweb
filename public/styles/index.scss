@@ -1,7 +1,7 @@
 @import './fonts.scss';
 @import './colors.scss';
 
-body {
+html, body {
     margin: auto 0;
     padding: 0;
 }
@@ -45,6 +45,15 @@ header {
         flex-wrap: wrap;
         justify-content: space-around;
         .introduction-area {
+            h2 {
+                margin: 0;
+                span {
+                    margin: 0;
+                    font-size: 50px;
+                    color: yellowgreen;
+                    font-family: 'VT323', sans-serif;
+                }
+            }
             p {
                 width: 400px;
             }
@@ -126,12 +135,64 @@ header {
         }
     }
 }
+// Websites Area 
+.websites-section {
+    background: yellowgreen;
+    margin: 0;
+    padding: 10px;
+    .websites-introduction {
+        h2 {
+            color: $SoftBlack;
+            text-align: center;
+        }
+    }
+    .websites-cards-area {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        .website-cards {
+            margin: 5px;
+            background: white;
+            border: 5px solid grey;
+            border-radius: 10px;
+            width: 350px;
+            img {
+                width: 100%;
+            }
+            .card-title {
+                padding: 5px;
+                text-align: center;
+                font-size: 20px;
 
-// FOR MOBILE
+            }
+            .card-description {
+               padding: 10px;
+               font-size: 20px;
+               font-family: sans-serif;
+            }
+            .button-area {
+                padding: 5px;
+            }
+        }
+    }
+}
+// FOR MOBILE ----------------------------------------***
+// Screens with a minimum width of 518px and a max-width of 2560px
+@media only screen and (min-width: 518px) and (max-width: 2560px) {
+    // For the Jumbotron
+    .jumbotron {
+        .container {
+            padding-top: 50px;
+        }
+    }
+}
+// Screens with a max width of 516px
 @media only screen and (max-width: 516px) {
     // For the Jumbotron
     .jumbotron {
         .container {
+            padding-top: 50px;
             .introduction-area {
                 p {
                     width: auto;
