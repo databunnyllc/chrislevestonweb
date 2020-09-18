@@ -77,6 +77,13 @@ header nav .navbar-brand .title-area p {
   width: 400px;
 }
 
+.jumbotron .container .introduction-area .notification-area {
+  font-size: 20px;
+  margin-top: 20px;
+  color: yellowgreen;
+  font-family: 'Russo One';
+}
+
 .jumbotron .container .image-area img {
   width: 25vw;
 }
@@ -201,8 +208,9 @@ header nav .navbar-brand .title-area p {
 
 .websites-section .websites-cards-area .website-cards {
   margin: 5px;
-  background: white;
-  border: 5px solid grey;
+  background: #202020;
+  color: white;
+  border: 5px solid darkgreen;
   border-radius: 10px;
   width: 350px;
 }
@@ -214,17 +222,21 @@ header nav .navbar-brand .title-area p {
 .websites-section .websites-cards-area .website-cards .card-title {
   padding: 5px;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
+  color: yellowgreen;
+  border-bottom: 1px solid #6f8d33;
 }
 
 .websites-section .websites-cards-area .website-cards .card-description {
   padding: 10px;
   font-size: 20px;
   font-family: sans-serif;
+  text-align: center;
 }
 
 .websites-section .websites-cards-area .website-cards .button-area {
   padding: 5px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 518px) and (max-width: 2560px) {
