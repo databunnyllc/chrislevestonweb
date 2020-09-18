@@ -1,0 +1,61 @@
+@import './colors.scss';
+
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    background: yellowgreen;
+}
+header {
+    position: fixed;
+    background: none;
+    font-size: 80px;
+    padding: 30px;
+    a {
+        text-decoration: none;
+        color: $SoftBlack;
+        &:hover {
+            text-decoration: none;
+            color: $SoftBlack;
+            text-shadow: 2px 5px 40px white;
+        }
+    }
+}
+.resume-section {
+    padding: 10px;
+    background: yellowgreen;
+    .resume {
+        background: yellowgreen;
+        text-align: center;
+        img {
+            border-radius: 20px;
+            box-shadow: 2px 5px 30px #21642d;
+            width: 50vw;
+            background: white;
+        }
+        a {
+            background: white;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .resume-section {
+        .resume {
+            position: absolute;
+            left: 25%;
+            top: 10%;
+        }
+    }
+}
+@media only screen and (max-width: 516px) {
+    .resume-section {
+        .resume {
+            position: absolute;
+            left: 0;
+            top: 20%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

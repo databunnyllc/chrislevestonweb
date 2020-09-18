@@ -240,6 +240,41 @@ header {
 }
 
 
-/******************** Footer Section *************************/
+/******************** Footer Section (Contact) *************************/
 
 
+footer {
+    background: $SoftBlack;
+    color: yellowgreen;
+    text-align: center;
+    padding: 60px;
+    a {
+        margin: 20px;
+        text-decoration: none;
+        color: yellowgreen;
+        transition: .1s ease-in-out;
+        -moz-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
+        -webkit-transition: .1s ease-in-out;
+        &:hover {
+            color: darkgreen;
+            text-decoration: none;
+        }
+    }
+    .social-links-area {
+        display: flex;
+        justify-content: center;
+        i {
+            font-size: 40px;
+        }
+    }
+    .resume-link-area {
+        i {
+            font-size: 60px;
+            h2 {
+                font-family: sans-serif;
+                font-weight: bold;
+            }
+        }
+    }
+}
