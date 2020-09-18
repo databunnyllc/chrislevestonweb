@@ -44,11 +44,11 @@ header nav .navbar-brand .title-area p {
 }
 
 /* THE JUMBOTRON SECTION */
-.jumbotron {
+#jumbotron-area {
   margin: 0;
 }
 
-.jumbotron .container {
+#jumbotron-area .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,29 +62,29 @@ header nav .navbar-brand .title-area p {
       justify-content: space-around;
 }
 
-.jumbotron .container .introduction-area h2 {
+#jumbotron-area .container .introduction-area h2 {
   margin: 0;
 }
 
-.jumbotron .container .introduction-area h2 span {
+#jumbotron-area .container .introduction-area h2 span {
   margin: 0;
   font-size: 50px;
   color: yellowgreen;
   font-family: 'VT323', sans-serif;
 }
 
-.jumbotron .container .introduction-area p {
+#jumbotron-area .container .introduction-area p {
   width: 400px;
 }
 
-.jumbotron .container .introduction-area .notification-area {
+#jumbotron-area .container .introduction-area .notification-area {
   font-size: 20px;
   margin-top: 20px;
   color: yellowgreen;
   font-family: 'Russo One';
 }
 
-.jumbotron .container .image-area img {
+#jumbotron-area .container .image-area img {
   width: 25vw;
 }
 
