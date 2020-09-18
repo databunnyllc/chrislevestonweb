@@ -1,4 +1,5 @@
-// Getting the notification area in the jumbotron.
+$(function() {
+    // Getting the notification area in the jumbotron.
 const notificationArea = document.getElementsByClassName("notification-area")[0];
 
 // Getting the navigation elements.
@@ -11,35 +12,26 @@ let skillsString = "Take a look at my current skills.";
 let contactString = "Contact Me";
 
 
-/* ********* Functions for events. *************** */
+/* ********* JQuery Functions for events. *************** */
 
+// Basic JQuery Events for when the mouseover the nav elements.
+$(navigationElements).eq(0).on('mouseover', () => {
+    $(notificationArea).text(htmlEmailString);
+});
+$(navigationElements).eq(1).on('mouseover', () => {
+    $(notificationArea).text(websitesString);
+});
+$(navigationElements).eq(2).on('mouseover',() => {
+    $(notificationArea).text(skillsString);
+});
+$(navigationElements).eq(3).on('mouseover', () => {
+    $(notificationArea).text(contactString);
+})
+// For loop to get all nav elements to go blank when mouseout.
+for(let i = 0; i < navigationElements.length; ++i) {
+    $(navigationElements).eq(i).on('mouseout', () => {
+        $(notificationArea).text("");
+    })
+}
 
-// Function for showing now message on navigation element when mouseout.
-const showNoMessage = () => {
-    notificationArea.textContent = " ";
-}
-// Functions for showing the different string messages.
-const showMessage1 = () => {
-    notificationArea.textContent = htmlEmailString;
-}
-const showMessage2 = () => {
-    notificationArea.textContent = websitesString;
-}
-const showMessage3 = () => {
-    notificationArea.textContent = skillsString;
-}
-const showMessage4 = () => {
-    notificationArea.textContent = contactString;
-}
-
-
-// A for loop to get all the navigation elements.
-for(let i = 0; i < navigationElements.length; ++i) { 
-    // Event for when the mouse leaves each element in the navigation.
-    navigationElements[i].addEventListener("mouseout", showNoMessage, false);
-}
-// Events of when mouseover on individual nav elemenst.
-navigationElements[0].addEventListener("mouseover", showMessage1, false);
-navigationElements[1].addEventListener("mouseover", showMessage2, false);
-navigationElements[2].addEventListener("mouseover", showMessage3, false);
-navigationElements[3].addEventListener("mouseover", showMessage4, false);
+});

@@ -96,7 +96,7 @@ header {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            // Styles for cards. Could make a little framework.
+            // Styles for the skills cards. Could make a little framework.
             .cards {
                 margin: 10px;
                 padding: 5px;
@@ -160,8 +160,9 @@ header {
         justify-content: center;
         .website-cards {
             margin: 5px;
-            background: white;
-            border: 5px solid grey;
+            background: $SoftBlack;
+            color: white;
+            border: 5px solid darkgreen;
             border-radius: 10px;
             width: 350px;
             img {
@@ -170,16 +171,20 @@ header {
             .card-title {
                 padding: 5px;
                 text-align: center;
-                font-size: 20px;
+                font-size: 25px;
+                color: yellowgreen;
+                border-bottom: 1px solid #6f8d33;
 
             }
             .card-description {
                padding: 10px;
                font-size: 20px;
                font-family: sans-serif;
+               text-align: center;
             }
             .button-area {
                 padding: 5px;
+                text-align: center;
             }
         }
     }
