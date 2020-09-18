@@ -142,14 +142,14 @@ header {
         }
     }
 }
-// Websites Area 
+// Websites Area ------------------------------------------
 .websites-section {
-    background: yellowgreen;
+    background: white;
     margin: 0;
     padding: 10px;
     .websites-introduction {
         h2 {
-            color: white;
+            color: $SoftBlack;
             text-align: center;
         }
     }
@@ -189,6 +189,48 @@ header {
         }
     }
 }
+
+
+
+/******************** Footer Section (Contact) *************************/
+
+
+footer {
+    background: $SoftBlack;
+    color: yellowgreen;
+    text-align: center;
+    padding: 60px;
+    a {
+        margin: 20px;
+        text-decoration: none;
+        color: yellowgreen;
+        transition: .1s ease-in-out;
+        -moz-transition: .1s ease-in-out;
+        -o-transition: .1s ease-in-out;
+        -webkit-transition: .1s ease-in-out;
+        &:hover {
+            color: darkgreen;
+            text-decoration: none;
+        }
+    }
+    .social-links-area {
+        display: flex;
+        justify-content: center;
+        i {
+            font-size: 40px;
+        }
+    }
+    .resume-link-area {
+        i {
+            font-size: 60px;
+            h2 {
+                font-family: sans-serif;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
 // FOR MOBILE ----------------------------------------***
 // Screens with a minimum width of 518px and a max-width of 2560px
 @media only screen and (min-width: 518px) and (max-width: 2560px) {
@@ -236,45 +278,5 @@ header {
     }
     .detailed-list-area {
         text-align: center;
-    }
-}
-
-
-/******************** Footer Section (Contact) *************************/
-
-
-footer {
-    background: $SoftBlack;
-    color: yellowgreen;
-    text-align: center;
-    padding: 60px;
-    a {
-        margin: 20px;
-        text-decoration: none;
-        color: yellowgreen;
-        transition: .1s ease-in-out;
-        -moz-transition: .1s ease-in-out;
-        -o-transition: .1s ease-in-out;
-        -webkit-transition: .1s ease-in-out;
-        &:hover {
-            color: darkgreen;
-            text-decoration: none;
-        }
-    }
-    .social-links-area {
-        display: flex;
-        justify-content: center;
-        i {
-            font-size: 40px;
-        }
-    }
-    .resume-link-area {
-        i {
-            font-size: 60px;
-            h2 {
-                font-family: sans-serif;
-                font-weight: bold;
-            }
-        }
     }
 }

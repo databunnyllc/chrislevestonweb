@@ -181,13 +181,13 @@ header nav .navbar-brand .title-area p {
 }
 
 .websites-section {
-  background: yellowgreen;
+  background: white;
   margin: 0;
   padding: 10px;
 }
 
 .websites-section .websites-introduction h2 {
-  color: white;
+  color: #202020;
   text-align: center;
 }
 
@@ -239,37 +239,6 @@ header nav .navbar-brand .title-area p {
   text-align: center;
 }
 
-@media only screen and (min-width: 518px) and (max-width: 2560px) {
-  .jumbotron .container {
-    padding-top: 50px;
-  }
-}
-
-@media only screen and (max-width: 516px) {
-  .jumbotron .container {
-    padding-top: 50px;
-  }
-  .jumbotron .container .introduction-area p {
-    width: auto;
-  }
-  .jumbotron .container .image-area img {
-    margin-top: 10px;
-    width: 300px;
-  }
-  .skills-introduction h2 {
-    text-align: center;
-  }
-  .skills-introduction p {
-    display: none;
-  }
-  .skills-technologies-section .cards-section .cards {
-    width: auto;
-  }
-  .detailed-list-area {
-    text-align: center;
-  }
-}
-
 /******************** Footer Section (Contact) *************************/
 footer {
   background: #202020;
@@ -313,5 +282,36 @@ footer .resume-link-area i {
 footer .resume-link-area i h2 {
   font-family: sans-serif;
   font-weight: bold;
+}
+
+@media only screen and (min-width: 518px) and (max-width: 2560px) {
+  .jumbotron .container {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 516px) {
+  .jumbotron .container {
+    padding-top: 50px;
+  }
+  .jumbotron .container .introduction-area p {
+    width: auto;
+  }
+  .jumbotron .container .image-area img {
+    margin-top: 10px;
+    width: 300px;
+  }
+  .skills-introduction h2 {
+    text-align: center;
+  }
+  .skills-introduction p {
+    display: none;
+  }
+  .skills-technologies-section .cards-section .cards {
+    width: auto;
+  }
+  .detailed-list-area {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=index.css.map */
