@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 $(function() {
     // Getting the notification area in the jumbotron.
 const notificationArea = document.getElementsByClassName("notification-area")[0];
@@ -38,4 +35,3 @@ for(let i = 0; i < navigationElements.length; ++i) {
 }
 
 });
->>>>>>> development
