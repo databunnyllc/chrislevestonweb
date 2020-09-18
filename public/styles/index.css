@@ -270,5 +270,48 @@ header nav .navbar-brand .title-area p {
   }
 }
 
-/******************** Footer Section *************************/
+/******************** Footer Section (Contact) *************************/
+footer {
+  background: #202020;
+  color: yellowgreen;
+  text-align: center;
+  padding: 60px;
+}
+
+footer a {
+  margin: 20px;
+  text-decoration: none;
+  color: yellowgreen;
+  transition: .1s ease-in-out;
+  -moz-transition: .1s ease-in-out;
+  -o-transition: .1s ease-in-out;
+  -webkit-transition: .1s ease-in-out;
+}
+
+footer a:hover {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+footer .social-links-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .social-links-area i {
+  font-size: 40px;
+}
+
+footer .resume-link-area i {
+  font-size: 60px;
+}
+
+footer .resume-link-area i h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
 /*# sourceMappingURL=index.css.map */

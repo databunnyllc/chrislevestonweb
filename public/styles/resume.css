@@ -1,0 +1,65 @@
+html, body {
+  margin: 0 auto;
+  padding: 0;
+  background: yellowgreen;
+}
+
+header {
+  position: fixed;
+  background: none;
+  font-size: 80px;
+  padding: 30px;
+}
+
+header a {
+  text-decoration: none;
+  color: #202020;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: #202020;
+  text-shadow: 2px 5px 40px white;
+}
+
+.resume-section {
+  padding: 10px;
+  background: yellowgreen;
+}
+
+.resume-section .resume {
+  background: yellowgreen;
+  text-align: center;
+}
+
+.resume-section .resume img {
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 5px 30px #21642d;
+          box-shadow: 2px 5px 30px #21642d;
+  width: 50vw;
+  background: white;
+}
+
+.resume-section .resume a {
+  background: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .resume-section .resume {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 516px) {
+  .resume-section .resume {
+    position: absolute;
+    left: 0;
+    top: 20%;
+  }
+  .resume-section .resume img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=resume.css.map */
