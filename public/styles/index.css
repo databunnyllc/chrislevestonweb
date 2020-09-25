@@ -8,15 +8,7 @@ header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   background: #202020;
-}
-
-header nav .navbar-brand {
-  -webkit-box-flex: 4;
-      -ms-flex-positive: 4;
-          flex-grow: 4;
 }
 
 header nav .navbar-brand .title-area {
@@ -29,6 +21,7 @@ header nav .navbar-brand .title-area {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: auto;
 }
 
 header nav .navbar-brand .title-area img {

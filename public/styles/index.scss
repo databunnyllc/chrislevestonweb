@@ -10,16 +10,15 @@ header {
     // Main navigation in header
     nav {
         display: flex;
-        justify-content: space-around;
         background: $SoftBlack;
         // Navbar Brand Area
         .navbar-brand {
-            flex-grow: 4;
             // Title Area
             .title-area {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
+                width: auto;
                 // Title Image
                 img {
                     width: 30px;
@@ -33,6 +32,9 @@ header {
                     font-family: 'Paytone One', sans-serif;
                 }
             }
+        }
+        .navbar-collapse {
+            
         }
     }
 }
