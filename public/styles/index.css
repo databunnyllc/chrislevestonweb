@@ -8,15 +8,7 @@ header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   background: #202020;
-}
-
-header nav .navbar-brand {
-  -webkit-box-flex: 4;
-      -ms-flex-positive: 4;
-          flex-grow: 4;
 }
 
 header nav .navbar-brand .title-area {
@@ -29,6 +21,7 @@ header nav .navbar-brand .title-area {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: auto;
 }
 
 header nav .navbar-brand .title-area img {
@@ -46,6 +39,9 @@ header nav .navbar-brand .title-area p {
 /* THE JUMBOTRON SECTION */
 .jumbotron {
   margin: 0;
+  background: url("/images/greenScans.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .jumbotron .container {
@@ -62,6 +58,11 @@ header nav .navbar-brand .title-area p {
       justify-content: space-around;
 }
 
+.jumbotron .container .introduction-area {
+  color: white;
+  text-shadow: 1px 1px 1px #cfe79d;
+}
+
 .jumbotron .container .introduction-area h2 {
   margin: 0;
 }
@@ -70,17 +71,19 @@ header nav .navbar-brand .title-area p {
   margin: 0;
   font-size: 50px;
   color: yellowgreen;
+  text-shadow: 1px 1px 5px yellowgreen;
   font-family: 'VT323', sans-serif;
 }
 
 .jumbotron .container .introduction-area p {
   width: 400px;
+  font-size: 20px;
 }
 
 .jumbotron .container .introduction-area .notification-area {
   font-size: 20px;
   margin-top: 20px;
-  color: yellowgreen;
+  color: white;
   font-family: 'Russo One';
 }
 
@@ -287,6 +290,35 @@ footer .resume-link-area i h2 {
 @media only screen and (min-width: 518px) and (max-width: 2560px) {
   .jumbotron .container {
     padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  .jumbotron .container .introduction-area {
+    color: white;
+    text-shadow: 1px 1px 1px #cfe79d;
+  }
+  .jumbotron .container .introduction-area h2 {
+    margin: 0;
+  }
+  .jumbotron .container .introduction-area h2 span {
+    margin: 0;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    font-family: 'VT323', sans-serif;
+  }
+  .jumbotron .container .introduction-area p {
+    width: 400px;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px black;
+    font-weight: bold;
+  }
+  .jumbotron .container .introduction-area .notification-area {
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Russo One';
   }
 }
 
