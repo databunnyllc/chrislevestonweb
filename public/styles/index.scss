@@ -1,7 +1,8 @@
-@import './fonts.scss';
-@import './colors.scss';
+@import "./fonts.scss";
+@import "./colors.scss";
 
-html, body {
+html,
+body {
     margin: auto 0;
     padding: 0;
 }
@@ -29,17 +30,14 @@ header {
                 p {
                     font-size: 20px;
                     margin: 0 0 0 3px;
-                    font-family: 'Paytone One', sans-serif;
+                    font-family: "Paytone One", sans-serif;
                 }
             }
-        }
-        .navbar-collapse {
-            
         }
     }
 }
 /* THE JUMBOTRON SECTION */
-.jumbotron{
+.jumbotron {
     margin: 0;
     background: url("../../images/greenScans.gif");
     background-repeat: no-repeat;
@@ -59,7 +57,7 @@ header {
                     font-size: 50px;
                     color: yellowgreen;
                     text-shadow: 1px 1px 5px yellowgreen;
-                    font-family: 'VT323', sans-serif;
+                    font-family: "VT323", sans-serif;
                 }
             }
             p {
@@ -71,7 +69,7 @@ header {
                 font-size: 20px;
                 margin-top: 20px;
                 color: white;
-                font-family: 'Russo One';
+                font-family: "Russo One";
             }
         }
         .image-area {
@@ -126,7 +124,7 @@ header {
                 }
             }
         }
-        // The individual technologies icons 
+        // The individual technologies icons
         .detailed-list-area {
             display: flex;
             flex-direction: row;
@@ -135,7 +133,7 @@ header {
             ul {
                 padding: 0;
                 margin: 0;
-                li{
+                li {
                     display: inline-block;
                     margin: 10px;
                     .whiteBackground {
@@ -183,13 +181,12 @@ header {
                 font-size: 25px;
                 color: yellowgreen;
                 border-bottom: 1px solid #6f8d33;
-
             }
             .card-description {
-               padding: 10px;
-               font-size: 20px;
-               font-family: sans-serif;
-               text-align: center;
+                padding: 10px;
+                font-size: 20px;
+                font-family: sans-serif;
+                text-align: center;
             }
             .button-area {
                 padding: 5px;
@@ -199,10 +196,55 @@ header {
     }
 }
 
+/******************** HTML EMAILS SECTION *******************************/
 
+.html-emails-section {
+    background: white;
+    margin: 0;
+    padding: 10px;
+    .html-emails-introduction {
+        h2 {
+            color: $SoftBlack;
+            text-align: center;
+        }
+    }
+    .html-emails-cards-area {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        .emails-cards {
+            margin: 5px;
+            background: $SoftBlack;
+            color: white;
+            border: 5px solid darkgreen;
+            border-radius: 10px;
+            width: 350px;
+            img {
+                width: 100%;
+            }
+            .emails-card-title {
+                padding: 5px;
+                text-align: center;
+                font-size: 25px;
+                color: yellowgreen;
+                border-bottom: 1px solid #6f8d33;
+            }
+            .emails-card-description {
+                padding: 10px;
+                font-size: 20px;
+                font-family: sans-serif;
+                text-align: center;
+            }
+            .emails-button-area {
+                padding: 5px;
+                text-align: center;
+            }
+        }
+    }
+}
 
 /******************** Footer Section (Contact) *************************/
-
 
 footer {
     background: $SoftBlack;
@@ -213,10 +255,10 @@ footer {
         margin: 20px;
         text-decoration: none;
         color: yellowgreen;
-        transition: .1s ease-in-out;
-        -moz-transition: .1s ease-in-out;
-        -o-transition: .1s ease-in-out;
-        -webkit-transition: .1s ease-in-out;
+        transition: 0.1s ease-in-out;
+        -moz-transition: 0.1s ease-in-out;
+        -o-transition: 0.1s ease-in-out;
+        -webkit-transition: 0.1s ease-in-out;
         &:hover {
             color: darkgreen;
             text-decoration: none;
@@ -252,8 +294,8 @@ footer {
 }
 // For making the jumbotron area readable at max-width of 1230px.
 @media only screen and (max-width: 1230px) {
-.jumbotron {
-    .container {
+    .jumbotron {
+        .container {
             .introduction-area {
                 color: white;
                 text-shadow: 1px 1px 1px #cfe79d;
@@ -264,7 +306,7 @@ footer {
                         font-size: 50px;
                         color: white;
                         text-shadow: 1px 1px 5px black;
-                        font-family: 'VT323', sans-serif;
+                        font-family: "VT323", sans-serif;
                     }
                 }
                 p {
@@ -278,7 +320,7 @@ footer {
                     font-size: 20px;
                     margin-top: 20px;
                     color: white;
-                    font-family: 'Russo One';
+                    font-family: "Russo One";
                 }
             }
         }
@@ -316,7 +358,7 @@ footer {
     .skills-technologies-section {
         .cards-section {
             .cards {
-                width: auto
+                width: auto;
             }
         }
     }

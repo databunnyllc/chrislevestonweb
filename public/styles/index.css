@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&family=Paytone+One&family=Press+Start+2P&family=Russo+One&display=swap");
-html, body {
+html,
+body {
   margin: auto 0;
   padding: 0;
 }
@@ -33,7 +34,7 @@ header nav .navbar-brand .title-area img {
 header nav .navbar-brand .title-area p {
   font-size: 20px;
   margin: 0 0 0 3px;
-  font-family: 'Paytone One', sans-serif;
+  font-family: "Paytone One", sans-serif;
 }
 
 /* THE JUMBOTRON SECTION */
@@ -72,7 +73,7 @@ header nav .navbar-brand .title-area p {
   font-size: 50px;
   color: yellowgreen;
   text-shadow: 1px 1px 5px yellowgreen;
-  font-family: 'VT323', sans-serif;
+  font-family: "VT323", sans-serif;
 }
 
 .jumbotron .container .introduction-area p {
@@ -84,7 +85,7 @@ header nav .navbar-brand .title-area p {
   font-size: 20px;
   margin-top: 20px;
   color: white;
-  font-family: 'Russo One';
+  font-family: "Russo One";
 }
 
 .jumbotron .container .image-area img {
@@ -242,6 +243,66 @@ header nav .navbar-brand .title-area p {
   text-align: center;
 }
 
+/******************** HTML EMAILS SECTION *******************************/
+.html-emails-section {
+  background: white;
+  margin: 0;
+  padding: 10px;
+}
+
+.html-emails-section .html-emails-introduction h2 {
+  color: #202020;
+  text-align: center;
+}
+
+.html-emails-section .html-emails-cards-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.html-emails-section .html-emails-cards-area .emails-cards {
+  margin: 5px;
+  background: #202020;
+  color: white;
+  border: 5px solid darkgreen;
+  border-radius: 10px;
+  width: 350px;
+}
+
+.html-emails-section .html-emails-cards-area .emails-cards img {
+  width: 100%;
+}
+
+.html-emails-section .html-emails-cards-area .emails-cards .emails-card-title {
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+  color: yellowgreen;
+  border-bottom: 1px solid #6f8d33;
+}
+
+.html-emails-section .html-emails-cards-area .emails-cards .emails-card-description {
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.html-emails-section .html-emails-cards-area .emails-cards .emails-button-area {
+  padding: 5px;
+  text-align: center;
+}
+
 /******************** Footer Section (Contact) *************************/
 footer {
   background: #202020;
@@ -254,10 +315,10 @@ footer a {
   margin: 20px;
   text-decoration: none;
   color: yellowgreen;
-  transition: .1s ease-in-out;
-  -moz-transition: .1s ease-in-out;
-  -o-transition: .1s ease-in-out;
-  -webkit-transition: .1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  -moz-transition: 0.1s ease-in-out;
+  -o-transition: 0.1s ease-in-out;
+  -webkit-transition: 0.1s ease-in-out;
 }
 
 footer a:hover {
@@ -306,7 +367,7 @@ footer .resume-link-area i h2 {
     font-size: 50px;
     color: white;
     text-shadow: 1px 1px 5px black;
-    font-family: 'VT323', sans-serif;
+    font-family: "VT323", sans-serif;
   }
   .jumbotron .container .introduction-area p {
     width: 400px;
@@ -318,7 +379,7 @@ footer .resume-link-area i h2 {
     font-size: 20px;
     margin-top: 20px;
     color: white;
-    font-family: 'Russo One';
+    font-family: "Russo One";
   }
 }
 
