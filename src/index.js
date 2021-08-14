@@ -9,6 +9,7 @@ const navigationElements = document.querySelectorAll(".navbar-nav a");
 
 let comingSoon = "Coming Soon";
 
+let uiDesignsString = "Check out the latest UI designs that I have done.";
 let htmlEmailString = "Take a look at my latest html email designs.";
 let websitesString = "View my website projects that I developed.";
 let skillsString = "Take a look at my current skills.";
@@ -20,15 +21,18 @@ let contactString = "Contact Me";
 
 // Basic JQuery Events for when the mouseover the nav elements.
 $(navigationElements).eq(0).on('mouseover', () => {
-    $(notificationArea).text(comingSoon)
+    $(notificationArea).text(uiDesignsString)
 });
 $(navigationElements).eq(1).on('mouseover', () => {
-    $(notificationArea).text(websitesString);
+    $(notificationArea).text(htmlEmailString)
 });
 $(navigationElements).eq(2).on('mouseover', () => {
+    $(notificationArea).text(websitesString);
+});
+$(navigationElements).eq(3).on('mouseover', () => {
     $(notificationArea).text(skillsString);
 });
-$(navigationElements).eq(3).on('mouseover',() => {
+$(navigationElements).eq(4).on('mouseover',() => {
     $(notificationArea).text(contactString);
 });
 // For loop to get all nav elements to go blank when mouseout.
