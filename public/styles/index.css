@@ -242,7 +242,8 @@ header nav .navbar-brand .title-area p {
 }
 
 .ui-section .ui-cards-area .ui-card {
-  width: 75%;
+  width: 800px;
+  margin: 10px;
 }
 
 .ui-section .ui-cards-area .ui-card img {
