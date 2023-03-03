@@ -6,31 +6,20 @@ body {
 }
 
 header nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background: #202020;
 }
-
 header nav .navbar-brand .title-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: auto;
 }
-
 header nav .navbar-brand .title-area img {
   width: 30px;
   height: 30px;
   border-radius: 10px;
 }
-
 header nav .navbar-brand .title-area p {
   font-size: 20px;
   margin: 0 0 0 3px;
@@ -44,25 +33,15 @@ header nav .navbar-brand .title-area p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .jumbotron .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-
 .jumbotron .container .introduction-area h2 {
   margin: 0;
 }
-
 .jumbotron .container .introduction-area h2 span {
   margin: 0;
   font-size: 50px;
@@ -70,19 +49,16 @@ header nav .navbar-brand .title-area p {
   text-shadow: 1px 1px 5px yellowgreen;
   font-family: "VT323", sans-serif;
 }
-
 .jumbotron .container .introduction-area p {
   width: 400px;
   font-size: 20px;
 }
-
 .jumbotron .container .introduction-area .notification-area {
   font-size: 20px;
   margin-top: 20px;
   color: green;
   font-family: "Russo One";
 }
-
 .jumbotron .container .image-area img {
   width: 25vw;
 }
@@ -92,35 +68,25 @@ header nav .navbar-brand .title-area p {
   padding: 10px;
   background: #202020;
 }
-
 .skills .skills-introduction {
   margin: auto;
   padding: 10px;
   text-align: justify;
   color: white;
 }
-
 .skills .skills-introduction h2 {
   text-align: center;
 }
-
 .skills .skills-introduction p {
   margin: auto;
   text-align: justify;
   width: 500px;
 }
-
 .skills .skills-technologies-section .cards-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 .skills .skills-technologies-section .cards-section .cards {
   margin: 10px;
   padding: 5px;
@@ -129,56 +95,39 @@ header nav .navbar-brand .title-area p {
   border: 5px solid yellowgreen;
   text-align: center;
 }
-
 .skills .skills-technologies-section .cards-section .cards i {
   font-size: 80px;
   color: green;
 }
-
 .skills .skills-technologies-section .cards-section .cards p {
   width: 150px;
   text-align: center;
 }
-
 .skills .skills-technologies-section .cards-section .cards a {
   color: yellowgreen;
 }
-
 .skills .skills-technologies-section .detailed-list-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 .skills .skills-technologies-section .detailed-list-area ul {
   padding: 0;
   margin: 0;
 }
-
 .skills .skills-technologies-section .detailed-list-area ul li {
   display: inline-block;
   margin: 10px;
 }
-
 .skills .skills-technologies-section .detailed-list-area ul li .whiteBackground {
   background: white;
   border-radius: 5px;
 }
-
 .skills .skills-technologies-section .detailed-list-area ul li .transparentBackground {
   background: none;
   border-radius: 5px;
 }
-
 .skills .skills-technologies-section .detailed-list-area ul li img {
   border-radius: 5px;
   width: 50px;
@@ -190,62 +139,50 @@ header nav .navbar-brand .title-area p {
   margin: 0;
   padding: 10px;
 }
-
 .ui-section .ui-introduction h2 {
   color: #202020;
   text-align: center;
 }
-
 .ui-section .ui-cards-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
   /**
-        .ui-cards {
-            margin: 5px;
-            background: $SoftBlack;
-            color: white;
-            border: 5px solid darkgreen;
-            border-radius: 10px;
-            width: 350px;
-            img {
-                width: 100%;
-            }
-            .ui-card-title {
-                padding: 5px;
-                text-align: center;
-                font-size: 25px;
-                color: yellowgreen;
-                border-bottom: 1px solid #6f8d33;
-            }
-            .ui-card-description {
-                padding: 10px;
-                font-size: 20px;
-                font-family: sans-serif;
-                text-align: center;
-            }
-            .ui-button-area {
-                padding: 5px;
-                text-align: center;
-            }
-        }
-        */
+  .ui-cards {
+      margin: 5px;
+      background: $SoftBlack;
+      color: white;
+      border: 5px solid darkgreen;
+      border-radius: 10px;
+      width: 350px;
+      img {
+          width: 100%;
+      }
+      .ui-card-title {
+          padding: 5px;
+          text-align: center;
+          font-size: 25px;
+          color: yellowgreen;
+          border-bottom: 1px solid #6f8d33;
+      }
+      .ui-card-description {
+          padding: 10px;
+          font-size: 20px;
+          font-family: sans-serif;
+          text-align: center;
+      }
+      .ui-button-area {
+          padding: 5px;
+          text-align: center;
+      }
+  }
+  */
 }
-
 .ui-section .ui-cards-area .ui-card {
   width: 800px;
   margin: 10px;
 }
-
 .ui-section .ui-cards-area .ui-card img {
   width: 100%;
 }
@@ -255,27 +192,16 @@ header nav .navbar-brand .title-area p {
   margin: 0;
   padding: 10px;
 }
-
 .websites-section .websites-introduction h2 {
   color: #202020;
   text-align: center;
 }
-
 .websites-section .websites-cards-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
-
 .websites-section .websites-cards-area .website-cards {
   margin: 5px;
   background: #202020;
@@ -284,11 +210,9 @@ header nav .navbar-brand .title-area p {
   border-radius: 10px;
   width: 350px;
 }
-
 .websites-section .websites-cards-area .website-cards img {
   width: 100%;
 }
-
 .websites-section .websites-cards-area .website-cards .card-title {
   padding: 5px;
   text-align: center;
@@ -296,14 +220,12 @@ header nav .navbar-brand .title-area p {
   color: yellowgreen;
   border-bottom: 1px solid #6f8d33;
 }
-
 .websites-section .websites-cards-area .website-cards .card-description {
   padding: 10px;
   font-size: 20px;
   font-family: sans-serif;
   text-align: center;
 }
-
 .websites-section .websites-cards-area .website-cards .button-area {
   padding: 5px;
   text-align: center;
@@ -315,27 +237,16 @@ header nav .navbar-brand .title-area p {
   margin: 0;
   padding: 10px;
 }
-
 .html-emails-section .html-emails-introduction h2 {
   color: #202020;
   text-align: center;
 }
-
 .html-emails-section .html-emails-cards-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
-
 .html-emails-section .html-emails-cards-area .emails-cards {
   margin: 5px;
   background: #202020;
@@ -344,11 +255,9 @@ header nav .navbar-brand .title-area p {
   border-radius: 10px;
   width: 350px;
 }
-
 .html-emails-section .html-emails-cards-area .emails-cards img {
   width: 100%;
 }
-
 .html-emails-section .html-emails-cards-area .emails-cards .emails-card-title {
   padding: 5px;
   text-align: center;
@@ -356,14 +265,12 @@ header nav .navbar-brand .title-area p {
   color: yellowgreen;
   border-bottom: 1px solid #6f8d33;
 }
-
 .html-emails-section .html-emails-cards-area .emails-cards .emails-card-description {
   padding: 10px;
   font-size: 20px;
   font-family: sans-serif;
   text-align: center;
 }
-
 .html-emails-section .html-emails-cards-area .emails-cards .emails-button-area {
   padding: 5px;
   text-align: center;
@@ -376,7 +283,6 @@ footer {
   text-align: center;
   padding: 60px;
 }
-
 footer a {
   margin: 20px;
   text-decoration: none;
@@ -386,29 +292,20 @@ footer a {
   -o-transition: 0.1s ease-in-out;
   -webkit-transition: 0.1s ease-in-out;
 }
-
 footer a:hover {
   color: darkgreen;
   text-decoration: none;
 }
-
 footer .social-links-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 footer .social-links-area i {
   font-size: 40px;
 }
-
 footer .resume-link-area i {
   font-size: 60px;
 }
-
 footer .resume-link-area i h2 {
   font-family: sans-serif;
   font-weight: bold;
@@ -419,7 +316,6 @@ footer .resume-link-area i h2 {
     padding-top: 50px;
   }
 }
-
 @media only screen and (max-width: 1230px) {
   .jumbotron .container .introduction-area {
     color: black;
@@ -446,7 +342,6 @@ footer .resume-link-area i h2 {
     font-family: "Russo One";
   }
 }
-
 @media only screen and (max-width: 516px) {
   .jumbotron .container {
     padding-top: 50px;
@@ -470,5 +365,4 @@ footer .resume-link-area i h2 {
   .detailed-list-area {
     text-align: center;
   }
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
